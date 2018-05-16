@@ -1,6 +1,11 @@
 # Project: Building a Student Intervention System
 
-# Install
+## Description
+The goal of this project is to predict how likely a student is to pass their high school final exam. By identifying students who need intervention before they drop out of school, the local school district can improve to 95% the student graduation rate by the end of the decade. 
+
+n addition, the board of supervisors requires that the intervention system uses the least amount of computation costs to save on the budget.
+
+## Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
 
@@ -8,23 +13,23 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+It also needs to have the software to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
 . Run one of the following commands:
 
 ```bash
-ipython notebook student_intervention.ipynb
+ipython notebook
 ```  
 or
 ```bash
-jupyter notebook student_intervention.ipynb
+jupyter notebook
 ```
 
-This will open the Jupyter Notebook software and project file in your browser.
+then go to your directory and click on the `'student_intervention.ipynb'` file. This will open the Jupyter Notebook software and project file in your browser.
 
 ## Data
 
-The dataset used in this project is included as `student-data.csv`. This dataset has the following attributes:
+The dataset used in this project is included as `student-data.csv`. This dataset has 395 rows and 30 features.  Its attributes are:
 
 - `school` : student's school (binary: "GP" or "MS")
 - `sex` : student's sex (binary: "F" - female or "M" - male)
