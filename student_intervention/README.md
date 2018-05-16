@@ -3,7 +3,7 @@
 ## Description
 The goal of this project is to predict how likely a student is to pass their high school final exam. By identifying students who need intervention before they drop out of school, the local school district can improve to 95% the student graduation rate by the end of the decade. 
 
-n addition, the board of supervisors requires that the intervention system uses the least amount of computation costs to save on the budget.
+In addition, the board of supervisors requires that the intervention system uses the least amount of computation costs to save on the budget.
 
 ## Install
 
@@ -15,7 +15,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 It also needs to have the software to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-. Run one of the following commands:
+Run one of the following commands:
 
 ```bash
 ipython notebook
