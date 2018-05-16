@@ -2,11 +2,14 @@
 ## Predicting Boston Housing Prices
 
 ### Description
+
 This project aims to predict housing prices based on:
 - `'RM'` is the average number of rooms among homes in the neighborhood.
 - `'LSTAT'` is the percentage of homeowners in the neighborhood considered "lower class" (working poor).
 - `'PTRATIO'` is the ratio of students to teachers in primary and secondary schools in the neighborhood.
 
+We will evaluate the performance and predictive power of a DecisionTreeRegressor model on data collected from homes in suburbs of Boston, Massachusetts. The aim of the model is to make predictions about the monetary value of a home which would prove to be invaluable for someone like a real estate agent who could make use of such information on a daily basis.
+ 
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
