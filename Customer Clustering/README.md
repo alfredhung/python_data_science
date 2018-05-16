@@ -1,5 +1,9 @@
 # Project: Creating Customer Segments
 
+### Description
+This project segments customers of a food wholesale distributor into distinct categories.  The business goal is to identify those customers that are the best candidates to switch from a five-day to a three-day delivery service. The fewer delivery days will help the company save on service costs.
+
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
